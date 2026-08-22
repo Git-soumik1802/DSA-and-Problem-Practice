@@ -9,3 +9,4 @@ src/jspiderday6/
 bin/ 
 .classpath 
 .settings/ 
+.project 
