@@ -1,37 +1,53 @@
-"# DSA-and-Problem-Practice" 
+# 🚀 DSA & Java Problem Practice
 
-# DSA and Problem Practice
+Welcome to my **Data Structures & Algorithms + Java Problem Practice Repository**.
 
-A collection of my **Data Structures and Algorithms (DSA)** practice and problem-solving solutions in **Java**.
+This repository contains my daily coding practice, problem-solving solutions, Java concepts, OOP-based questions, LeetCode solutions, DSA implementations, and interview-oriented problems.
 
-This repository contains problems and implementations that I solve while preparing for **coding interviews, placements, and competitive programming**.
+The main goal of this repository is to **strengthen problem-solving skills, improve Java fundamentals, and prepare for technical interviews**.
 
-## 📚 Topics Covered
+---
+
+## 🎯 What This Repository Covers
+
+* 🧠 Data Structures & Algorithms
+* ☕ Core Java
+* 🏗️ Object-Oriented Programming
+* 💻 LeetCode Problems
+* 🔄 Recursion & Backtracking
+* 🌐 Graph Algorithms
+* 🔗 Linked Lists
+* 📦 Java Collections
+* 🔍 Searching & Sorting
+* 🔤 String Problems
+* 🔢 Number System Problems
+* 💡 Scenario & Story-Based OOP Questions
+* 📝 Practice Problems
+
+---
+
+## 🧠 Data Structures & Algorithms
 
 ### Arrays
 
-* Array traversal
-* Searching
-* Maximum and minimum elements
-* Second largest / second smallest
+* Array Traversal
+* Maximum & Minimum
+* Second Largest / Second Smallest
 * Kadane's Algorithm
-* Leaders in an array
-* Move zeroes
-* Missing numbers
+* Leaders in an Array
+* Missing Number
+* Move Zeroes
+* Remove Duplicates
 * Spiral Matrix
-* Array manipulation
+* Array Manipulation
 
-### Strings
+### Searching
 
-* String reversal
-* String compression
-* Anagrams
-* Palindrome
-* Character frequency
-* Duplicate character removal
-* Longest substring
-* String permutations
-* Substring problems
+* Linear Search
+* Binary Search
+* Recursive Binary Search
+* Search in 2D Array
+* Search in Rotated Sorted Array
 
 ### Sorting
 
@@ -40,49 +56,32 @@ This repository contains problems and implementations that I solve while prepari
 * Insertion Sort
 * Merge Sort
 * Quick Sort
+* String Sorting
 
-### Searching
+---
 
-* Linear Search
-* Binary Search
-* Binary Search using recursion
-* Search in Rotated Sorted Array
+## 🔄 Recursion & Backtracking
 
-### Recursion & Backtracking
+Practice includes:
 
 * Factorial
 * Fibonacci
-* Power calculation
+* Power Calculation
+* String Reversal
 * Subsequences
-* Subsets
-* String permutations
-* Keypad combinations
-* Maze problems
+* Unique Subsequences
+* String Permutations
+* Keypad Combinations
+* Maze Problems
 * Tower of Hanoi
+* First & Last Occurrence
+* Recursive Searching
 
-### Linked List
+---
 
-* Linked List implementation
-* Palindrome Linked List
-* Cycle Detection
-* Delete Nth Node from End
+## 🌐 Graph Algorithms
 
-### Stack & Queue
-
-* Stack implementation
-* Queue implementation
-* Stack and Queue based problems
-
-### Hashing & Collections
-
-* HashSet
-* ArrayList
-* Frequency-based problems
-* Java Collections Framework
-
-### Graphs
-
-* Graph representation
+* Graph Representation
 * Adjacency List
 * BFS
 * DFS
@@ -93,131 +92,249 @@ This repository contains problems and implementations that I solve while prepari
 * Rotten Oranges
 * All Paths from Source to Destination
 
-### OOPs
+---
 
-* Classes and Objects
+## 🔗 Linked List
+
+* Linked List Implementation
+* Cycle Detection
+* Palindrome Linked List
+* Delete Nth Node From End
+* Reverse Linked List
+* Linked List Problems
+
+---
+
+## 📦 Java Collections
+
+Practice related to:
+
+* ArrayList
+* HashSet
+* List
+* Collections Framework
+* Collection-based Problem Solving
+
+---
+
+## ☕ Core Java & OOP
+
+This repository contains **Core Java and Object-Oriented Programming practice**, including both coding problems and real-world scenario/story-based questions.
+
+### OOP Concepts
+
+* Classes & Objects
+* Constructors
 * Encapsulation
 * Inheritance
 * Polymorphism
 * Abstraction
 * Composition
-* Object-oriented problem solving
+* Object Relationships
+* Method Overloading
+* Method Overriding
+* Real-World Scenario Problems
+* Story-Based OOP Questions
 
-### Number System
+Example OOP practice includes:
+
+* Customer
+* Digital Item Order
+* Music Order
+* Booking
+* Bus Booking
+* Passenger
+
+---
+
+## 💻 LeetCode Practice
+
+Regular practice of LeetCode problems covering:
+
+* Arrays
+* Strings
+* Hashing
+* Two Pointers
+* Sliding Window
+* Matrix
+* Searching
+* Greedy
+* Problem-Solving Patterns
+
+### Problems Practiced
+
+* Best Time to Buy and Sell Stock
+* Maximum Subarray
+* Product of Array Except Self
+* Majority Element
+* Longest Common Prefix
+* Longest Substring Without Repeating Characters
+* Search in Rotated Sorted Array
+* Set Matrix Zeroes
+* Rotate Image
+* Single Number
+* Valid Anagram
+* String Compression
+* Permutation in String
+* Reverse Words in a String
+* Remove All Occurrences of a Substring
+* Three Sum
+* Four Sum
+
+---
+
+## 🔢 Number System
+
+Practice includes:
 
 * Prime Number
 * Armstrong Number
 * Palindrome Number
 * Automorphic Number
+* Magic Number
 * Neon Number
 * Niven Number
-* Strong Number
 * Perfect Number
-* Binary and Decimal conversion
-* GCD and LCM
+* Strong Number
+* Spy Number
+* Binary to Decimal
+* Decimal to Binary
+* GCD & LCM
 
-## 💻 LeetCode Practice
+---
 
-This repository also contains solutions to various **LeetCode problems**, including:
+## 🔤 String Problems
 
-* Two Sum
-* Best Time to Buy and Sell Stock
-* Maximum Subarray
-* Product of Array Except Self
-* Majority Element
-* Merge Two Sorted Arrays
-* Search in Rotated Sorted Array
-* Set Matrix Zeroes
-* Rotate Image
-* Longest Substring Without Repeating Characters
-* Valid Palindrome
-* Valid Anagram
+Practice includes:
+
+* Reverse String
+* Reverse Words
+* Anagram
+* Character Occurrence
+* First Non-Repeated Character
 * String Compression
-* Single Number
-* Remove All Occurrences of a Substring
-* Permutation in String
-* Reverse Words in a String
-* And many more
+* Remove Duplicate Characters
+* String Permutation
+* Longest Substring
+* Word Counting
+* String Sorting
 
-## 🛠️ Technologies Used
+---
 
-* **Java**
-* **Java Collections Framework**
-* **Object-Oriented Programming**
-* **Data Structures**
-* **Algorithms**
-* **LeetCode**
-
-## 📁 Project Structure
+# 📂 Repository Structure
 
 ```text
-DSA-and-Problem-Practice
+DSA-and-Problem-Practice/
 │
-├── src
-│   ├── arrayProblems
-│   ├── DSA
-│   ├── DSAConcepts
-│   ├── finalPractice
-│   ├── Graph
-│   ├── Leetcode
-│   ├── LinkedList
-│   ├── NumberSystem
-│   ├── OOPS
-│   ├── OOPS2
-│   ├── OOPs3
-│   ├── patternmatch
-│   ├── PracticeSet
-│   ├── PracticeSetPf
-│   ├── RaveeshMock
-│   ├── recurssion
-│   ├── selfpracticequestion
-│   └── StringQuestions
+├── src/
+│   │
+│   ├── arrayProblems/
+│   ├── DSA/
+│   ├── DSAConcepts/
+│   ├── finalPractice/
+│   ├── Graph/
+│   ├── Leetcode/
+│   ├── LinkedList/
+│   ├── NumberSystem/
+│   ├── OOPS/
+│   ├── OOPS2/
+│   ├── OOPs3/
+│   ├── patternmatch/
+│   ├── PFQuestionsCodeChefs/
+│   ├── PracticeSet/
+│   ├── PracticeSetPf/
+│   ├── RaveeshMock/
+│   ├── recurssion/
+│   ├── selfpracticequestion/
+│   └── StringQuestions/
 │
 ├── .gitignore
 ├── .project
+├── module-info.java
 └── README.md
 ```
 
-## 🎯 Goals
+---
 
-* Improve problem-solving skills
-* Strengthen DSA fundamentals
-* Prepare for technical interviews
-* Practice LeetCode problems regularly
-* Improve Java programming skills
-* Understand time and space complexity
-* Build consistency in daily coding practice
+## 📈 My Learning Approach
 
-## 📈 Progress
+For every problem, I try to follow:
 
-I regularly update this repository with new problems and solutions as I continue my DSA preparation.
-
-> **Practice → Solve → Understand → Optimize → Repeat**
-
-## 🚀 How to Run
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Git-soumik1802/DSA-and-Problem-Practice.git
+```text
+Understand the Problem
+        ↓
+Think About the Approach
+        ↓
+Write the Solution
+        ↓
+Test the Code
+        ↓
+Analyze Time & Space Complexity
+        ↓
+Optimize if Possible
+        ↓
+Push to GitHub
 ```
 
-Open the project in your preferred Java IDE such as **Eclipse, IntelliJ IDEA, or VS Code**.
+---
 
-Navigate to the required `.java` file and run the program.
+## 🎯 Goals
 
-## 👨‍💻 Author
+* Strengthen DSA fundamentals
+* Improve Java programming skills
+* Develop strong problem-solving ability
+* Prepare for technical interviews
+* Practice consistently
+* Understand Time & Space Complexity
+* Strengthen Core Java & OOP concepts
+* Solve more LeetCode problems
+* Build consistency through daily practice
 
-**Soumik Nandi**
+---
 
-GitHub:
+## 📊 Continuous Learning
+
+This repository is continuously updated as I solve new problems and learn new concepts.
+
+Every problem helps improve:
+
+**Logic → Coding → Optimization → Problem Solving**
+
+---
+
+## 🛠️ Technologies
+
+```text
+Java
+Core Java
+OOP
+Data Structures
+Algorithms
+Java Collections
+LeetCode
+Git & GitHub
+```
+
+---
+
+## 👨‍💻 About Me
+
+I am continuously improving my **Java, DSA, problem-solving, and software development skills** through consistent practice.
+
+This repository represents my coding journey and preparation for technical interviews.
+
+### 🔗 Connect With Me
+
+**GitHub:**
 https://github.com/Git-soumik1802
 
-LinkedIn:
+**LinkedIn:**
 https://www.linkedin.com/in/soumik-nandi-b48a0922a/
 
 ---
 
-⭐ If you find this repository useful, feel free to star it!
+## ⭐ Keep Learning. Keep Coding. Keep Improving.
 
-**Keep Coding. Keep Learning. Keep Improving.**
+> **Consistency is the key to mastering DSA.**
+
+⭐ Feel free to explore the repository and check out the solutions.
