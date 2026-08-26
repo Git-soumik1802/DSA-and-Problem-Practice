@@ -85,4 +85,4 @@ public class foursum {
 
         System.out.println(result);
     }
-}
+} 
