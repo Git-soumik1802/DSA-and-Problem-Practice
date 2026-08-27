@@ -2,8 +2,8 @@ package StringQuestions;
 
 public class Findfirstnonrepeatedcharacter {
 	public static void firstNonRepeatingChars(String s) {
-		s=s.toLowerCase();
-		int[]freq=new int[26];
+		
+		int[]freq=new int[256];
 		for(int i=0;i<s.length();i++) {
 			char ch=s.charAt(i);
 			if(ch>='a'&& ch<='z') {
