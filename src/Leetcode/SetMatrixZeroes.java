@@ -4,17 +4,41 @@ import java.util.Arrays;
 
 public class SetMatrixZeroes {
 	 public void setZeroes(int[][] matrix) {
-		 int row=0;
-		 int col=0;
-	        for(int i=0;i<matrix.length;i++) {
-	        	for(int j=0;j<matrix[i].length;j++) {
-	        		if(matrix[i][j]==0) {
-	        			row=i;
-	        			col=j;
-	        			matrix[row][0]=0;
-	        			matrix[0][col]=0;
-	        		}
-	        	}
+		   int m = matrix.length;
+	        int n = matrix[0].length;
+
+	        boolean[] row = new boolean[m];
+	        boolean[] col = new boolean[n];
+
+	        // Find all rows and columns containing 0
+	        for (int i = 0; i < m; i++) {
+	            for (int j = 0; j < n; j++) {
+
+	                if (matrix[i][j] == 0) {
+	                    row[i] = true;
+	                    col[j] = true;
+	                }
+	            }
+	        }
+
+	        // Set rows to zero
+	        for (int i = 0; i < m; i++) {
+
+	            if (row[i]) {
+	                for (int j = 0; j < n; j++) {
+	                    matrix[i][j] = 0;
+	                }
+	            }
+	        }
+
+	        // Set columns to zero
+	        for (int j = 0; j < n; j++) {
+
+	            if (col[j]) {
+	                for (int i = 0; i < m; i++) {
+	                    matrix[i][j] = 0;
+	                }
+	            }
 	        }
 	        for(int[] x:matrix) {
 				System.out.println(Arrays.toString(x));

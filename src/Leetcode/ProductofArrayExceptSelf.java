@@ -5,18 +5,19 @@ import java.util.Arrays;
 public class ProductofArrayExceptSelf {
 	public int[] productExceptSelf(int[] nums) {
         int []ans=new int[nums.length];
-        for(int i=0;i<nums.length;i++) {
-            int product=1;
-        	for(int j=0;j<nums.length;j++) {
-        		if(i==j) {
-        			continue;
-        		}
-        		product*=nums[j];
-        		
-        	}
-        	ans[i]=product;
-        	
-        }
+       ans[0]=1;
+       for(int i=1;i<nums.length;i++) {
+    	   ans[i]=ans[i-1]*nums[i-1];
+       }
+       int suffix = 1;
+
+		for(int i=nums.length-1;i>=0;i--) {
+
+			ans[i] = ans[i] * suffix;
+
+			suffix = suffix * nums[i];
+		}
+        
 		return ans;
         
     }
