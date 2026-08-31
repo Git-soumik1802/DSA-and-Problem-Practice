@@ -48,12 +48,9 @@ public class LinkedList {
 
     // Add element at a particular index
     public void add(int idx, int data) {
-
         if (idx < 0) {
             throw new IndexOutOfBoundsException();
         }
-
-        // Add at first position
         if (idx == 0) {
             addFirst(data);
             return;
